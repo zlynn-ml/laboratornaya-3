@@ -10,7 +10,8 @@ int main() {
 	int houses, flats;
 
 	cin >> houses >> flats;
-
+if (houses_ < 0 || flats < 0)
+	return 1;
 	for (int houses_ = 1; houses_ <= houses; houses_++) {
 		cout << "\n ДОМ НОМЕР " << houses_<< endl;
 
