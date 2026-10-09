@@ -5,15 +5,16 @@
 using namespace std;
 int main() {
 	
-	int n;
+	int n, k;
 	
 	cin >> n;
 if (n < 0)
 return 1;
 	
-	for (int i = 1; i <= n; i++)
+	for (int i = 1; i <= n; i++){
 		cout << 100 + 10 * i << endl;
-
-	cout << 100 + 10 * n;
+		k += 100 + 10 * i;
+	}
+	cout << k;
 	return 0;
 }
