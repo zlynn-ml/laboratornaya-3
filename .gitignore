@@ -1,0 +1,22 @@
+# Исполняемые файлы компилятора (результат сборки)
+*.exe
+*.out
+*.app
+
+# Временные объектные файлы
+*.obj
+*.o
+
+# Папки сборки и кэша популярных IDE (Visual Studio, CLion)
+.vs/
+out/
+build/
+cmake-build-debug/
+cmake-build-release/
+x64/
+Debug/
+Release/
+
+# Системные файлы
+Thumbs.db
+.DS_Store
